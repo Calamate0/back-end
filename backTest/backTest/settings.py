@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-am0_%^$alnu$=%z%j2@@_jx#h@q%!3(wsk0=!jcp3qh2l#^jpx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True 
+DEBUG = False 
 
 ALLOWED_HOSTS = ['*']
 
@@ -102,7 +102,7 @@ DATABASES = {
         'PORT': '',
 
         'OPTIONS': {
-            'driver': 'SQL Server Native Client 11.0',
+            'driver': 'ODBC Driver 17 for SQL Server', 
         },
     }
 }
